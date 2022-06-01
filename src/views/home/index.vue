@@ -14,13 +14,12 @@ const data = ref(
 			desc: '这是描述'.repeat(Math.random() * 100),
 		}))
 );
-const router = useRouter()
+const router = useRouter();
 const check = (item: any) => {
-    router.push({
-        path:"/detail",
-        params:item
-    })
+    const json = JSON.stringify(item)
+	router.push({
+		name: 'detail',
+		params: {json},
+	});
 };
-
-
 </script>

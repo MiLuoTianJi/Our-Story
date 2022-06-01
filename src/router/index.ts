@@ -18,7 +18,7 @@ const routes: Array<RouteRecordRaw> = [
 				component: () => import('../views/home/index.vue'),
 			},
 			{
-				path: '/detail',
+				path: '/detail/:json',
 				name: 'detail',
 				component: () => import('../views/detail/index.vue'),
 			},
