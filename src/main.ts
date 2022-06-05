@@ -5,6 +5,7 @@ import store from './store/index';
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
+import * as tools from './utils/tools';
 const app = createApp(App);
 
 // 挂载路由

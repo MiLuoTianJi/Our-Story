@@ -24,7 +24,7 @@ import { View } from '@element-plus/icons-vue';
 const props = defineProps({
 	data: {
 		type: Array,
-		default: [],
+		default: ()=>[],
 	},
 });
 
